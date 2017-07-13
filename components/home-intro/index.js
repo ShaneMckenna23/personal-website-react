@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import env from '../../adaptors/server/env';
-import window from '../../adaptors/server/window';
 import s from './_index.css';
 import Video from '../video';
 
