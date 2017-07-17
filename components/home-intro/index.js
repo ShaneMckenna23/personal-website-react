@@ -11,9 +11,9 @@ class HomeIntro extends Component {
     let fallbackImage, src;
 
     if (viewportDimensions.width < 600) {
-      src = 'http://player.h-cdn.org/static/mp4/tears_of_steel_1080p_MP4.mp4';
+      src = 'https://s3.envato.com/h264-video-previews/d3d7e327-d9a9-458f-b8b0-640788ad0c3b/19933199.mp4';
     } else {
-      src = 'http://player.h-cdn.org/static/mp4/tears_of_steel_1080p_MP4.mp4';
+      src = 'https://s3.envato.com/h264-video-previews/d3d7e327-d9a9-458f-b8b0-640788ad0c3b/19933199.mp4';
     }
 
     return (
