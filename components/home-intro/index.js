@@ -11,9 +11,9 @@ class HomeIntro extends Component {
     let fallbackImage, src;
 
     if (viewportDimensions.width < 600) {
-      src = 'https://s3.envato.com/h264-video-previews/d3d7e327-d9a9-458f-b8b0-640788ad0c3b/19933199.mp4';
+      src = 'https://s3.envato.com/h264-video-previews/8033c64c-8574-42e7-b0f4-b2740f54410d/20125460.mp4';
     } else {
-      src = 'https://s3.envato.com/h264-video-previews/d3d7e327-d9a9-458f-b8b0-640788ad0c3b/19933199.mp4';
+      src = 'https://s3.envato.com/h264-video-previews/8033c64c-8574-42e7-b0f4-b2740f54410d/20125460.mp4';
     }
 
     return (
