@@ -9,8 +9,8 @@
  */
 
 module.exports = {
-  title: 'Shane Mckenna',        // Your website title
-  url: 'personal-website-react',          // Your website URL
-  project: 'https://personal-website-react.firebaseapp.com/',      // Firebase project. See README.md -> How to Deploy
+  title: 'Shane Mckenna',         // Your website title
+  url: 'https://personal-website-react.firebaseapp.com/',          // Your website URL
+  project: 'personal-website-react',      // Firebase project. See README.md -> How to Deploy
   trackingID: 'UA-XXXXX-Y',                 // Google Analytics Site's ID
 };
