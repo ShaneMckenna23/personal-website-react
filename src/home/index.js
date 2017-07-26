@@ -12,7 +12,6 @@ import React, { PropTypes } from 'react';
 import Layout from '../../components/Layout';
 import Video from '../../components/video';
 import HomeIntro from '../../components/home-intro';
-import HeightPrinter from '../../components/Height-Printer';
 import s from './styles.css';
 import { title, html } from './index.md';
 
@@ -41,7 +40,6 @@ class HomePage extends React.Component {
   render() {
     return (
       <Layout>
-        <HeightPrinter />
         <HomeIntro  viewportDimensions={{ height : this.state.height , width: this.state.width}}/>
       </Layout>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import s from './_index.css';
 import Video from '../video';
+import HomeIntroLogo from '../home-intro-logo'
 
 class HomeIntro extends Component {
 
@@ -11,11 +12,11 @@ class HomeIntro extends Component {
     let fallbackImage, src;
 
     if (viewportDimensions.width < 600) {
-      src = 'https://s3.envato.com/h264-video-previews/8033c64c-8574-42e7-b0f4-b2740f54410d/20125460.mp4';
+      src = 'https://storage.googleapis.com/personal-website-react.appspot.com/VID_20170714_223201_1.mp4';
     } else {
-      src = 'https://s3.envato.com/h264-video-previews/8033c64c-8574-42e7-b0f4-b2740f54410d/20125460.mp4';
-    }
-
+      src = 'https://storage.googleapis.com/personal-website-react.appspot.com/Longitude2017_720.mp4';
+    }     
+    
     return (
       <div className={s.homeIntro}>
         <div className={s.homeIntroVideo}>
@@ -30,6 +31,7 @@ class HomeIntro extends Component {
             fixedHeight={viewportDimensions.height}
           />
         </div>
+        <HomeIntroLogo />
       </div>
     );
   }
