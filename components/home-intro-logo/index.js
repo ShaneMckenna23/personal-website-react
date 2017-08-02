@@ -7,7 +7,7 @@ class HomeIntroLogo extends Component {
         return (
             <div className="col-sm-2">
                 <div className={s.homeIntroLogo}>
-                    <h1>Shane Mckenna</h1>
+                    <h1>Shane Mckenna :D</h1>
                     <HeightPrinter />
                 </div>
             </div>
