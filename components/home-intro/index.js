@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import s from './_index.css';
 import Video from '../video';
 import HomeIntroLogo from '../home-intro-logo'
+import {Col} from 'react-bootstrap'
 
 class HomeIntro extends Component {
 
