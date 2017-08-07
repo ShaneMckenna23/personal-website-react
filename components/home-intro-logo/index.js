@@ -7,11 +7,9 @@ import SocialMediaBar from "../SocialMediaBar"
 class HomeIntroLogo extends Component {
     render() {
         return (
-            <div>
+            <div style={{color:"white", position:"relative", zIndex:1}}>
                 <SocialMediaBar/>
-                <div className={s.homeIntroLogo}>
-                    <h1 style={{color : "white"}}>Shane Mckenna</h1>
-                </div>
+                <h1 style={{color : "white"}}>Shane Mckenna</h1>
             </div>
         );
     }
